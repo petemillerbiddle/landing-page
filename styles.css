@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header,
+.content-1,
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+.header,
+.content-1,
+.text-under-boxes,
+.content-4 {
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 4px 64px;
+}
+
+.left-content-1 {
+    padding: 64px 4px 64px 64px;
+    flex: 1 1;
+}
+
+.image-space {
+    flex: 1 1;
+    margin: 64px 64px 64px 4px;
+    background-color: gray;
+    height: 200px;
+}
