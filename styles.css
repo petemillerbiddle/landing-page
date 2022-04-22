@@ -31,3 +31,36 @@ body {
     background-color: gray;
     height: 200px;
 }
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f3937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.empty-box {
+    height: 110px;
+    width: 100px;
+    border: solid;
+    align-self: center;
+}
+
+.text-under-boxes {
+    display: flex;
+    margin: 24px 120px;
+}
+
+.text-and-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    padding: 8px;
+}
+
+.text-and-box p {
+    text-align: center;
+}
