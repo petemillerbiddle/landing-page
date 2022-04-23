@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 .header,
 .content-1,
@@ -10,14 +11,25 @@ body {
 }
 .header,
 .content-1,
+.info-header,
+.text-and-box,
 .text-under-boxes,
-.content-4 {
+.content-3,
+.content-4,
+.footer {
     display: flex;
 }
 
 .header {
     justify-content: space-between;
     padding: 4px 64px;
+}
+
+.header a {
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    text-decoration: none;
 }
 
 .left-content-1 {
@@ -38,7 +50,6 @@ body {
     font-size: 36px;
     font-weight: bolder;
     color: #1f3937;
-    display: flex;
     flex: 1;
     justify-content: center;
 }
@@ -48,6 +59,8 @@ body {
     width: 120px;
     border: solid;
     align-self: center;
+    border-radius: 10px;
+    border-color: #3882F6;
 }
 
 .text-under-boxes {
@@ -55,7 +68,6 @@ body {
 }
 
 .text-and-box {
-    display: flex;
     flex-direction: column;
     flex: 1;
     justify-content: center;
@@ -68,7 +80,6 @@ body {
 }
 
 .content-3 {
-    display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
     align-items: center;
@@ -93,6 +104,7 @@ body {
     color: white;
     background-color: #3882F6;
     justify-content: space-between;
+    border-radius: 4px;
 }
 
 .call-action {
@@ -108,4 +120,10 @@ button {
     align-self: center;
     border-radius: 5px;
     padding: 0px 16px;
+}
+
+.footer {
+    justify-content: center;
+    padding: 24px;
+    font-size: 12px;
 }
