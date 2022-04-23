@@ -24,8 +24,6 @@ body {
 .header {
     justify-content: space-between;
     padding: 16px 64px;
-    border: solid;
-    border-color: green;
     padding-bottom: 100px;
 }
 
@@ -40,11 +38,9 @@ body {
 }
 
 .left-content-1 {
-    padding: 4px 24px 64px 64px;
+    padding: 4px 32px 64px 64px;
     flex: 1 1;
     margin-top: 0;
-    border: solid;
-    border-color: red;
 }
 
 .left-content-1 p,
@@ -55,8 +51,6 @@ body {
 
 .left-content-1 p {
     margin-top: 8px;
-    border: solid;
-    border-color: yellow;
     margin-bottom: 4px;
 }
 
@@ -70,8 +64,6 @@ h3 {
     font-weight: bolder;
     color: #F9FAF8;
     margin-bottom: 8px;
-    border: solid;
-    border-color: yellow;
     margin-top: 0;
 }
 
@@ -82,8 +74,6 @@ h3 {
     height: 220px;
     text-align: center;
     line-height: 200px;
-    border: solid;
-    border-color: blue;
 }
 
 .info-header {
