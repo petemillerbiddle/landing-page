@@ -23,7 +23,10 @@ body {
 
 .header {
     justify-content: space-between;
-    padding: 4px 64px;
+    padding: 16px 64px;
+    border: solid;
+    border-color: green;
+    padding-bottom: 100px;
 }
 
 .left-header {
@@ -37,8 +40,11 @@ body {
 }
 
 .left-content-1 {
-    padding: 64px 4px 64px 64px;
+    padding: 4px 24px 64px 64px;
     flex: 1 1;
+    margin-top: 0;
+    border: solid;
+    border-color: red;
 }
 
 .left-content-1 p,
@@ -47,19 +53,37 @@ body {
     font-size: 18px;
 }
 
+.left-content-1 p {
+    margin-top: 8px;
+    border: solid;
+    border-color: yellow;
+    margin-bottom: 4px;
+}
+
+.left-content-1 button {
+    margin-top: 0;
+    border-color: #3882F6;
+}
+
 h3 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 8px;
+    border: solid;
+    border-color: yellow;
+    margin-top: 0;
 }
 
 .image-space {
     flex: 1 1;
-    margin: 64px 64px 64px 4px;
+    margin: 0 64px 64px 4px;
     background-color: gray;
-    height: 200px;
+    height: 220px;
     text-align: center;
     line-height: 200px;
+    border: solid;
+    border-color: blue;
 }
 
 .info-header {
@@ -135,7 +159,8 @@ button {
     height: 24px;
     align-self: center;
     border-radius: 5px;
-    padding: 0px 16px;
+    padding: 0px 20px;
+    font-weight: bold;
 }
 
 .footer {
