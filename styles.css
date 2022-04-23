@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header,
 .content-1,
@@ -25,16 +26,31 @@ body {
     padding: 4px 64px;
 }
 
+.left-header {
+    font-weight: bold;
+}
+
 .header a {
     color: white;
     padding: 8px;
-    font-size: 12px;
     text-decoration: none;
 }
 
 .left-content-1 {
     padding: 64px 4px 64px 64px;
     flex: 1 1;
+}
+
+.left-content-1 p,
+.header a {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 .image-space {
